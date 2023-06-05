@@ -30,6 +30,5 @@ function newItem() {
   crossOutButton.on("click", deleteListItem);
 
   // 4. Reordering the items:
-
   $("#list").sortable();
 }
